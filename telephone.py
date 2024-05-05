@@ -53,7 +53,7 @@ class QuadraticHashTable(LinearHashTable):
 
 
 class TelephoneBook:
-    def __init__(self):
+    def __init__(self,method):
         if method == "linear":
             self.book = LinearHashTable()
         elif method == "quadratic":
